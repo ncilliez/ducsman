@@ -1,1 +1,51 @@
-@import "./vendor/normalize.css";/*# sourceMappingURL=main.css.map */
+@import "./vendor/normalize.css";
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.btnmenu {
+  float: right;
+}
+
+.navigation {
+  width: 250px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 40px;
+  transition: transform 0.6s ease-in-out;
+  transform: translateX(-80%);
+}
+.navigation.open {
+  transform: translateX(0%);
+}
+
+.burger {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 20;
+  cursor: pointer;
+}
+.burger .barre {
+  width: 30px;
+  height: 3px;
+  background: black;
+  margin-top: 6px;
+  transition: all 0.6s;
+}
+
+.burger .barre2.add {
+  background: transparent;
+}
+
+.burger .barre1.add {
+  transform: translateY(9px) rotateZ(45deg);
+  transition: all 0.6s ease-in-out;
+}
+
+.burger .barre3.add {
+  transform: translateY(-9px) rotateZ(-45deg);
+  transition: all 0.6s ease-in-out;
+}/*# sourceMappingURL=main.css.map */
