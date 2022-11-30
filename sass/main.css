@@ -23,8 +23,7 @@ main {
 /* Opacité 12% */
 #entetesite {
   display: flex;
-  margin: 20px;
-  direction: ltr;
+  padding: 20px 20px 20px 80px;
   width: 100%;
   max-width: 100%;
   position: relative;
@@ -68,7 +67,7 @@ main {
 
 @media screen and (max-width: 390px) {
   #entetesite {
-    margin: 0px;
+    padding: 0px;
   }
   #entetesite .kingsman {
     display: none;
