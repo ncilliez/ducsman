@@ -40,13 +40,14 @@
   padding: 1%;
 }
 #presentationboutiqueaccueil h1 {
-  font-size: 58px;
+  font-size: 70px;
+  font-weight: 200;
   text-align: center;
   font-family: "Italianno";
   color: #EFD9BE;
 }
 #presentationboutiqueaccueil p {
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   font-family: "Maitree";
   text-align: center;
