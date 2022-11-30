@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "./vendor/normalize.css";
 * {
   box-sizing: border-box;
@@ -52,4 +53,32 @@
   .navigation {
     transform: translateX(-100%);
   }
+}
+/* Opacité 12% */
+footer {
+  background-color: hsla(32deg, 35%, 48%, 0.128);
+  width: 100%;
+  padding-left: 60px;
+  height: 213px;
+  display: flex;
+}
+footer img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 25%;
+}
+
+.conteneurlien {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 250px;
+       column-gap: 250px;
+  row-gap: 30px;
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 24px;
+}
+
+.conteneurlien a {
+  color: black;
 }/*# sourceMappingURL=main.css.map */
