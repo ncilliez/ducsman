@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "./vendor/normalize.css";
 * {
   box-sizing: border-box;
@@ -52,4 +53,39 @@
   .navigation {
     transform: translateX(-100%);
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*le header en general*/
+header {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo_du_header {
+  width: 100%;
+  order: 0;
+}
+
+.photo_du_header_mobile {
+  width: 100%;
+  order: 0;
+  display: none;
+}
+
+/*le header en general*/
+@media screen and (max-width: 390px) {
+  header {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .photo_du_header {
+    width: 100%;
+    order: 0;
+    display: none;
+  }
+  .photo_du_header_mobile {
+    display: block;
+  }
+}
+/* Opacité 12% *//*# sourceMappingURL=main.css.map */
