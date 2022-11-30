@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "./vendor/normalize.css";
 * {
   box-sizing: border-box;
@@ -5,6 +6,68 @@
   padding: 0px;
 }
 
+/* Opacité 12% */
+#entetesite {
+  display: flex;
+  margin: 20px;
+  direction: ltr;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+#entetesite .kingsman {
+  width: 60%;
+  height: 100%;
+  padding: 20px;
+  opacity: 0.6;
+  margin-right: -20%;
+}
+#entetesite .contenupresentation {
+  background-color: #8A9187;
+  opacity: 95%;
+  width: 100%;
+  min-height: 60px;
+  max-height: 50%;
+  margin: 80px 80px 80px 0px;
+}
+
+#presentationboutiqueaccueil {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+}
+#presentationboutiqueaccueil h1 {
+  font-size: 58px;
+  text-align: center;
+  font-family: "Italianno";
+  color: #EFD9BE;
+}
+#presentationboutiqueaccueil p {
+  font-size: 18px;
+  color: white;
+  font-family: "Maitree";
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  #entetesite {
+    margin: 0px;
+  }
+  #entetesite .kingsman {
+    display: none;
+  }
+  #entetesite .contenupresentation {
+    margin: 0px;
+  }
+  #entetesite .contenupresentation h1 {
+    font-size: 40px;
+  }
+  #entetesite .contenupresentation p {
+    padding: 10px;
+  }
+}
 /*le menu en general*/
 .navigation {
   position: fixed;

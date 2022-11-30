@@ -1,4 +1,19 @@
+// VENDORS
+
 @import "./vendor/normalize.css";
+
+//BASE
+
 @import "./base/base";
-@import "./composant/menu";
+
+// UTILS
+
 @import "./utils/utils";
+
+// LAYOUT
+
+@import "./layout/entete";
+
+// COMPONENTS
+
+@import "./composant/menu";
