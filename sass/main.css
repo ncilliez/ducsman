@@ -6,6 +6,19 @@
   padding: 0px;
 }
 
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  width: 25%;
+}
+
+main {
+  width: 100%;
+}
+
 /* Opacité 12% */
 #entetesite {
   display: flex;
@@ -143,10 +156,14 @@ footer img {
   color: black;
 }
 
+.test {
+  display: flex;
+  justify-content: space-around;
+}
+
 .conteneurpicto {
-  position: absolute;
-  right: 2%;
-  bottom: 77%;
+  display: flex;
+  padding-left: 400px;
 }
 .conteneurpicto img {
   width: 40px;
@@ -154,14 +171,14 @@ footer img {
 }
 
 .copyright {
-  position: absolute;
-  margin-top: 40px;
-  left: 50%;
+  margin-left: 200px;
   background-color: #EFD9BE;
   width: 220px;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   border-radius: 25px 25px 0px 0px;
+  margin-top: 35px;
+  height: 45px;
 }
 
 @media screen and (max-width: 390px) {
@@ -170,6 +187,7 @@ footer img {
   }
   footer {
     height: 270px;
+    padding-left: 60px;
   }
   footer img {
     display: none;
@@ -186,4 +204,10 @@ footer img {
   .conteneurlien a {
     color: black;
   }
+}
+.conteneurtitre {
+  margin-bottom: 20px;
+  border-bottom: 3px solid;
+  text-align: center;
+  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */

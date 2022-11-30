@@ -4,4 +4,21 @@
     padding: 0px;
 }
 
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+  width: 25%;  
+}
+
+main{
+    width: 100%;
+    // padding-left: 60px;
+    
+}
+
+
+
 

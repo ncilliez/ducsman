@@ -23,25 +23,30 @@ footer{
         color: black;
     }
 }
+
+.test{
+    display: flex;
+    justify-content: space-around;
+    
+}
 .conteneurpicto{
-  
-position: absolute;
-right: 2%;
-bottom: 77%;
+  display: flex;
+padding-left: 400px;
+
     img {
         width: 40px;
         margin: 15px;
     }
 }
 .copyright{
-    position: absolute;
-    margin-top: 40px;
-    left: 50%;
+  margin-left: 200px;
     background-color: $copyright;
     width: 220px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     border-radius: 25px 25px 0px 0px;
+    margin-top: 35px;
+    height: 45px;
 }
 
 
@@ -52,6 +57,7 @@ bottom: 77%;
     }
     footer{
         height: 270px;
+        padding-left: 60px;
     }
    footer img{
     display: none;
