@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "./vendor/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,700;1,400&family=Italianno&family=Maitree:wght@300&display=swap");
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -52,13 +53,14 @@ main {
   padding: 1%;
 }
 #presentationboutiqueaccueil h1 {
-  font-size: 58px;
+  font-size: 70px;
+  font-weight: 200;
   text-align: center;
   font-family: "Italianno";
   color: #EFD9BE;
 }
 #presentationboutiqueaccueil p {
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   font-family: "Maitree";
   text-align: center;
@@ -86,14 +88,36 @@ main {
   position: fixed;
   width: 300px;
   height: 100%;
-  border: 1px solid black;
-  padding: 40px;
   transition: transform 0.6s ease-in-out;
   transform: translateX(-80%);
   background: #8A9187;
 }
 .navigation.open {
   transform: translateX(0%);
+}
+.navigation .logo_menu {
+  max-width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.navigation .mon_menu {
+  list-style: none;
+  display: block;
+}
+.navigation li {
+  width: 300px;
+}
+.navigation li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+.navigation li a:hover {
+  background-color: white;
+  color: #8A9187;
 }
 
 /*le menu en general*/
@@ -124,7 +148,7 @@ main {
 }
 
 /*le btn burger*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) {
   .navigation {
     transform: translateX(-100%);
   }
@@ -210,4 +234,5 @@ footer img {
   border-bottom: 3px solid;
   text-align: center;
   margin-top: 30px;
-}/*# sourceMappingURL=main.css.map */
+}
+/* Opacité 12% *//*# sourceMappingURL=main.css.map */
