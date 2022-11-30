@@ -1,0 +1,26 @@
+
+#decouvrirprix, #decouvrirprix1, #decouvrirprix2, #decouvrirprix3, #decouvrirprix4, #decouvrirprix5, #decouvrirprix6, #decouvrirprix7 {
+    display: flex; 
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    background-color: $gold;
+    color: white;
+}
+
+#conteneurphoto {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-width: auto;
+}
+
+#grilleaccueil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+    margin: 30px 20px 20px 90px;
+
+}
