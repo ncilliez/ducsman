@@ -1,5 +1,23 @@
+// VENDORS
+
 @import "./vendor/normalize.css";
+
+//BASE
+
 @import "./base/base";
+
+// UTILS
+
+@import "./utils/utils";
+@import "./utils/fonts";
+
+// LAYOUT
+
+@import "./layout/entete";
+
+// COMPONENTS
+
 @import "./composant/menu";
 @import "./composant/header";
+@import "./composant/footer";
 @import "./utils/utils";

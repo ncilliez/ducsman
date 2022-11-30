@@ -1,20 +1,49 @@
+
 /*le menu en general*/
 
 .navigation{
     position: fixed;
     width: 300px;
     height: 100%;
-    border: 1px solid black;
-    padding: 40px;
     transition: transform .6s ease-in-out;
     transform: translateX(-80%);
     background: #8A9187;
     &.open{
         transform: translateX(0%);
     }
+    .logo_menu{
+        max-width: 200px; 
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+       
+
+    }
+    .mon_menu{
+        list-style: none;
+        display: block;
+    }
+    li{
+        width: 300px;
+        a{
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            &:hover{
+                background-color: white;
+                color:#8A9187;
+            }
+
+        }
+        
+    }
+
 }
 
 /*le menu en general*/
+
 /*le bouton burger*/
 
 .burger{
@@ -47,7 +76,12 @@
 
 /*le btn burger*/
 
-@media screen and (max-width: 480px){ 
+
+
+
+
+
+@media screen and (max-width: 390px){ 
 
     .navigation{
         transform: translateX(-100%);

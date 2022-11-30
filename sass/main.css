@@ -1,24 +1,109 @@
 @charset "UTF-8";
 @import "./vendor/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,700;1,400&family=Italianno&family=Maitree:wght@300&display=swap");
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
+/* Opacité 12% */
+#entetesite {
+  display: flex;
+  margin: 20px;
+  direction: ltr;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+#entetesite .kingsman {
+  width: 60%;
+  height: 100%;
+  padding: 20px;
+  opacity: 0.6;
+  margin-right: -20%;
+}
+#entetesite .contenupresentation {
+  background-color: #8A9187;
+  opacity: 95%;
+  width: 100%;
+  min-height: 60px;
+  max-height: 50%;
+  margin: 80px 80px 80px 0px;
+}
+
+#presentationboutiqueaccueil {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+}
+#presentationboutiqueaccueil h1 {
+  font-size: 58px;
+  text-align: center;
+  font-family: "Italianno";
+  color: #EFD9BE;
+}
+#presentationboutiqueaccueil p {
+  font-size: 18px;
+  color: white;
+  font-family: "Maitree";
+  text-align: center;
+}
+
+@media screen and (max-width: 390px) {
+  #entetesite {
+    margin: 0px;
+  }
+  #entetesite .kingsman {
+    display: none;
+  }
+  #entetesite .contenupresentation {
+    margin: 0px;
+  }
+  #entetesite .contenupresentation h1 {
+    font-size: 40px;
+  }
+  #entetesite .contenupresentation p {
+    padding: 10px;
+  }
+}
 /*le menu en general*/
 .navigation {
   position: fixed;
   width: 300px;
   height: 100%;
-  border: 1px solid black;
-  padding: 40px;
   transition: transform 0.6s ease-in-out;
   transform: translateX(-80%);
   background: #8A9187;
 }
 .navigation.open {
   transform: translateX(0%);
+}
+.navigation .logo_menu {
+  max-width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.navigation .mon_menu {
+  list-style: none;
+  display: block;
+}
+.navigation li {
+  width: 300px;
+}
+.navigation li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+.navigation li a:hover {
+  background-color: white;
+  color: #8A9187;
 }
 
 /*le menu en general*/
@@ -49,43 +134,8 @@
 }
 
 /*le btn burger*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) {
   .navigation {
     transform: translateX(-100%);
   }
-}
-/*le header en general*/
-header {
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.photo_du_header {
-  width: 100%;
-  order: 0;
-}
-
-.photo_du_header_mobile {
-  width: 100%;
-  order: 0;
-  display: none;
-}
-
-/*le header en general*/
-@media screen and (max-width: 390px) {
-  header {
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .photo_du_header {
-    width: 100%;
-    order: 0;
-    display: none;
-  }
-  .photo_du_header_mobile {
-    display: block;
-  }
-}
-/* Opacité 12% *//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
