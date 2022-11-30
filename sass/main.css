@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "./vendor/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,700;1,400&family=Italianno&family=Maitree:wght@300&display=swap");
 * {
   box-sizing: border-box;
   margin: 0px;
