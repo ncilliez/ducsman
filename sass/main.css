@@ -51,7 +51,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 390px) {
   #entetesite {
     margin: 0px;
   }
@@ -116,7 +116,6 @@
     transform: translateX(-100%);
   }
 }
-/* Opacité 12% */
 footer {
   background-color: hsla(32deg, 35%, 48%, 0.128);
   width: 100%;
