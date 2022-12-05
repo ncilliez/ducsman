@@ -171,66 +171,6 @@ section {
   width: 160px;
 }
 
-#contenairpresentationboutique {
-  width: 100%;
-  opacity: 0.8;
-  background-image: url("/images/kingsman.jpg");
-  background-size: 100%;
-  background-clip: content-box;
-  position: absolute;
-  background-repeat: no-repeat;
-}
-
-#photoshorizontales {
-  display: flex;
-  width: 90%;
-  gap: 0px;
-  position: relative;
-  margin-top: 30px;
-  margin-left: 9%;
-  margin-bottom: 30px;
-  z-index: 1;
-  opacity: 1;
-}
-#photoshorizontales img {
-  max-width: 33%;
-  opacity: 1;
-}
-
-#textedelaboutique {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 60%;
-  background-color: rgba(138, 145, 135, 0.8);
-  padding: 2%;
-  margin-left: 25%;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 30px;
-}
-#textedelaboutique h2 {
-  color: #EFD9BE;
-  opacity: 1;
-  font-family: "Italianno";
-  font-size: 30px;
-}
-#textedelaboutique .detailsboutique {
-  font-family: "Maitree";
-  font-size: 12px;
-  margin-bottom: 20px;
-  color: white;
-}
-#textedelaboutique .boutonrdv {
-  font-family: "Maitree";
-  font-size: 12px;
-  border-top: 1px #EFD9BE solid;
-  border-bottom: 1px #EFD9BE solid;
-  padding: 7px 20px 7px 20px;
-  margin-bottom: 5px;
-  color: white;
-}
-
 main {
   margin-left: 100px;
 }
@@ -244,17 +184,15 @@ main {
   transform: translateX(-80%);
   background: #8A9187;
   font-family: "italianno";
-  font-size: 30px;
+  font-size: 40px;
 }
 .navigation.open {
   transform: translateX(0%);
 }
 .navigation .logo_menu {
-  max-width: 200px;
-  display: block;
+  max-width: 300px;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  padding: 50px;
 }
 .navigation .mon_menu {
   list-style: none;
@@ -265,7 +203,7 @@ main {
 }
 .navigation li a {
   display: block;
-  padding: 20px 20px 20px 0px;
+  padding: 20px 20px 20px 10px;
   text-decoration: none;
   color: white;
   text-align: center;
@@ -287,6 +225,7 @@ main {
 .burger .barre {
   width: 30px;
   height: 3px;
+  border-radius: 20px;
   background: white;
   margin-top: 6px;
   transition: all 0.6s;
@@ -303,9 +242,35 @@ main {
 }
 
 /*le btn burger*/
+/*la carte*/
+.carte iframe {
+  width: 100%;
+  padding: 20px;
+  border: none;
+}
+
+/*la carte*/
+.menu_reso {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.menu_reso i {
+  color: white;
+}
+.menu_reso .fa-instagram:hover {
+  color: black;
+}
+.menu_reso .fa-twitter:hover {
+  color: #1c87c9;
+}
+.menu_reso .fa-facebook:hover {
+  color: #3b5998;
+}
+
 @media screen and (max-width: 390px) {
-  .navigation {
-    transform: translateX(-100%);
+  .carte {
+    display: none;
   }
 }
 footer {
