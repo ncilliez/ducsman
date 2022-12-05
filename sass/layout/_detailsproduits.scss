@@ -1,0 +1,47 @@
+.contener_principal{
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  display: flex;
+
+  .description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 20%;
+  
+  
+  }
+
+.grille{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+  
+  
+  img{
+    width: 500px;
+    }
+
+  .sous_grille{
+    display: flex;
+    gap: 10px;
+    
+    
+    img{
+      width: 160px;
+    }
+  }
+
+
+
+
+}
+
+}
+
+
+
+
+  
