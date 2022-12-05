@@ -41,11 +41,14 @@ font-family: 'Maitree', serif;
 #arrowup{
     position: absolute;
     right: 2%;
-    color: black;
+    color: white;
     font-size: 40px;
     background-color: $pastelgreen;
     border-radius: 50%;
     padding: 15px;
+    padding-top: 11px;
+    width: 61px;
+    height: 61px;
 }
 
 @media screen and (max-width: 490px) {
