@@ -96,6 +96,8 @@ main {
   transition: transform 0.6s ease-in-out;
   transform: translateX(-80%);
   background: #8A9187;
+  font-family: "italianno";
+  font-size: 30px;
 }
 .navigation.open {
   transform: translateX(0%);
@@ -116,12 +118,13 @@ main {
 }
 .navigation li a {
   display: block;
-  padding: 20px;
+  padding: 20px 20px 20px 0px;
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 .navigation li a:hover {
-  background-color: white;
+  background-color: #EFD9BE;
   color: #8A9187;
 }
 
@@ -137,7 +140,7 @@ main {
 .burger .barre {
   width: 30px;
   height: 3px;
-  background: #A57E50;
+  background: white;
   margin-top: 6px;
   transition: all 0.6s;
 }
