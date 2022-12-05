@@ -231,6 +231,10 @@ section {
   color: white;
 }
 
+main {
+  margin-left: 100px;
+}
+
 /*le menu en general*/
 .navigation {
   position: fixed;
