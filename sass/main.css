@@ -82,9 +82,6 @@ main {
     padding: 10px;
   }
 }
-<<<<<<< HEAD
-/*.grille {
-=======
 section {
   width: 90%;
 }
@@ -126,9 +123,7 @@ section {
     gap: 70px;
   }
 }
-.grille {
-  background-color: #6d1819;
->>>>>>> 54e1a569f85b5f119d45b46f8e03c2c7f765965d
+/*.grille {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
@@ -161,16 +156,19 @@ section {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  margin-top: 40px;
+  margin-left: 100px;
 }
 .grille img {
-  width: 320px;
+  width: 500px;
 }
 .grille .sous_grille {
   display: flex;
   gap: 10px;
+  margin-bottom: 100px;
 }
 .grille .sous_grille img {
-  width: 100px;
+  width: 160px;
 }
 
 #contenairpresentationboutique {
