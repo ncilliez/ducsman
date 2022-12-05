@@ -15,10 +15,12 @@
 
 @import "./layout/entete";
 @import "./layout/gridaccueil";
+@import "./layout/gridproduits";
 
 // COMPONENTS
 
 @import "./composant/menu";
 @import "./composant/footer";
 
-@import "./page/infopage"
+@import "./page/infopage";
+@import "./composant/header";
