@@ -531,7 +531,7 @@ footer img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   max-height: 250px;
 }
 
