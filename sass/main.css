@@ -528,7 +528,11 @@ footer {
   padding-left: 100px;
 }
 footer img {
-  width: 25%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  max-width: 300px;
+  max-height: 250px;
 }
 
 nav {
@@ -550,6 +554,7 @@ nav {
   font-size: 1.5rem;
 }
 .conteneurlien a {
+  text-decoration: none;
   color: black;
   font-family: "Maitree", serif;
 }
@@ -577,6 +582,11 @@ nav {
   height: 45px;
 }
 
+@media screen and (max-width: 700px) {
+  footer {
+    flex-wrap: wrap;
+  }
+}
 @media screen and (max-width: 395px) {
   .copyright {
     display: none;
@@ -585,6 +595,7 @@ nav {
     min-height: 200px;
     padding-left: 0px;
     margin-left: 60px;
+    padding-bottom: 50px;
   }
   footer img {
     display: none;
@@ -592,11 +603,15 @@ nav {
   .conteneurlien {
     display: flex;
     flex-wrap: wrap;
-    -moz-column-gap: 250px;
-         column-gap: 250px;
+    row-gap: 2px;
     font-size: 1.5rem;
     margin-left: 20px;
     margin-top: 25px;
+    text-align: center;
+    width: 100%;
+  }
+  .conteneurlien.size {
+    font-size: 1.1rem;
   }
   .conteneurlien a {
     color: black;
