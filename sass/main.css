@@ -131,12 +131,14 @@ section {
 
 #contenairpresentationboutique {
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   background-image: url("/images/kingsman.jpg");
   background-size: 100%;
   background-clip: content-box;
   position: absolute;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 #photoshorizontales {
@@ -179,16 +181,122 @@ section {
   margin-bottom: 20px;
   color: white;
 }
-#textedelaboutique .boutonrdv {
+#textedelaboutique a {
   font-family: "Maitree";
   font-size: 12px;
   border-top: 1px #EFD9BE solid;
   border-bottom: 1px #EFD9BE solid;
-  padding: 7px 20px 7px 20px;
+  padding: 7px 35px 7px 35px;
   margin-bottom: 5px;
   color: white;
+  text-decoration: none;
+}
+#textedelaboutique a:hover {
+  border-top: 2px #EFD9BE solid;
+  border-bottom: 2px #EFD9BE solid;
 }
 
+@media screen and (max-width: 390px) {
+  #contenairpresentationboutique {
+    flex-direction: column-reverse;
+    margin: 0px;
+    gap: 20px;
+    opacity: 0.9;
+  }
+  #textedelaboutique {
+    margin: auto;
+    max-width: 85%;
+    margin-top: 10px;
+  }
+  #textedelaboutique h2 {
+    font-size: 22px;
+  }
+  #textedelaboutique .detailsboutique {
+    font-size: 11px;
+  }
+  #textedelaboutique .boutonrdv {
+    font-size: 11px;
+    padding: 6px 33px 6px 33px;
+  }
+  #photoshorizontales {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  #photoshorizontales img {
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+  }
+}
+#textefondateurs, #textefondateurs1, #textefondateurs2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 70px;
+  padding-top: 40px;
+}
+#textefondateurs h2, #textefondateurs1 h2, #textefondateurs2 h2 {
+  font-family: "Amiri";
+  font-style: italic;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+#textefondateurs p, #textefondateurs1 p, #textefondateurs2 p {
+  width: 80%;
+  font-family: "Maitree";
+  font-size: 12px;
+}
+
+#presentationhistorique, #presentationhistorique1, #presentationhistorique2 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+#presentationhistorique .imgfondateurs, #presentationhistorique1 .imgfondateurs, #presentationhistorique2 .imgfondateurs {
+  max-width: 30%;
+  padding: 10px;
+  border: 1px #A57E50 solid;
+  margin: 70px;
+}
+#presentationhistorique .imgfondateurs .textfondateurs, #presentationhistorique1 .imgfondateurs .textfondateurs, #presentationhistorique2 .imgfondateurs .textfondateurs {
+  max-width: 45%;
+}
+#presentationhistorique .imgfondateurs img, #presentationhistorique1 .imgfondateurs img, #presentationhistorique2 .imgfondateurs img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (max-width: 390px) {
+  #presentationhistorique, #presentationhistorique2 {
+    flex-direction: column;
+    margin: 0px 0px 0px 20px;
+  }
+  #presentationhistorique .imgfondateurs, #presentationhistorique2 .imgfondateurs {
+    margin: auto;
+    max-width: 50%;
+  }
+  #presentationhistorique1 {
+    flex-direction: column-reverse;
+    margin: 0px 0px 0px 20px;
+  }
+  #presentationhistorique1 .imgfondateurs {
+    margin: auto;
+    max-width: 50%;
+  }
+  #textefondateurs, #textefondateurs1, #textefondateurs2 {
+    margin: 20px;
+    padding-top: 0px;
+  }
+  #textefondateurs h2, #textefondateurs1 h2, #textefondateurs2 h2 {
+    font-size: 20px;
+  }
+  #textefondateurs p, #textefondateurs1 p, #textefondateurs2 p {
+    font-size: 10px;
+  }
+}
 /*le menu en general*/
 .navigation {
   position: fixed;
