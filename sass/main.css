@@ -88,6 +88,10 @@ main {
   grid-template-columns: 75% 25%;
 }
 
+main {
+  margin-left: 100px;
+}
+
 /*le menu en general*/
 .navigation {
   position: fixed;

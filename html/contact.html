@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/sass/main.css">
+</head>
+<body>
+
+    <aside>
+        <div class="burger">
+            <div class="barre barre1"><span></span></div>
+            <div class="barre barre2"><span></span></div>
+            <div class="barre barre3"><span></span></div>
+        </div>    
+    
+        <nav class="navigation">  
+    
+            <img class="logo_menu" src="/Logo/ducsman/logo_blanc.png" alt="">
+    
+            <ul class="mon_menu">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Boutique</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+    
+            <iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1203.465640075922!2d2.3449733840800393!3d48.86245932456481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1895faebef%3A0x4492e1644329343d!2sLes%20Halles!5e0!3m2!1sfr!2sfr!4v1669814144968!5m2!1sfr!2sfr"></iframe>
+    
+        </nav>
+    
+    </aside>
+
+    <header>
+        <img class= "photo_du_header" id="img_header" src="/images/boutiqueheader_name.jpg" alt="photo_du_header"/>
+    </header>
+
+    <main class="conteneur">
+
+        <h1>Contact</h1>
+
+        <form>
+
+                <p>
+
+                    <label for="lastName">Nom* :</label>
+                    <input id="lastName" name="lastName" type="text" placeholder="Nom" required>
+
+                </p>
+
+                <p>
+
+                    <label for="firstName">Prénom* :</label>
+                    <input id="firstName" name="firstName" type="text" placeholder="Prénom" required>
+
+                </p>
+
+                <p>
+
+                    <label for="email">Adresse e-mail* :</label>
+                    <input id="email" name="email" type="email" placeholder="prénom.nom@gmail.com" required>
+
+                </p>
+                
+                <p>
+
+                    <label for="phoneNumber">Numéro de téléphone* :</label>
+                    <input id="phoneNumber" name="phoneNumber" type="tel" pattern="0[1-9][0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" maxlength="10" required placeholder="06123456">
+
+                </p>
+                
+                <p>
+
+                    <label for="message">Objet de la demande :</label>
+                    <textarea name="message" id="message" rows="3" required placeholder="Mon message"></textarea>
+
+                </p>
+
+                <p>Inscription à la newsletter* :</p>
+
+                <p>
+
+                    <input type="radio" name="newsletter" id="yesNewsletter" checked="checked" class="checkbox">
+                    <label for="newsletter">Oui</label required>
+                    
+                </p>
+
+                <p>
+
+                    <input type="radio" name="newsletter" id="noNewsletter" class="checkbox">
+                    <label for="newsletter">Non</label required>
+                    
+                </p>
+
+                    <input type="submit" class="send">
+
+                </p>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <img src="/Logo/logo-remove.png" alt="">
+
+        <nav>
+            <div class="conteneurlien">
+                <a href="">Mentions légales</a>
+                <a href="">Réglementation des données personnelles</a>
+                <a href="">Conditions générales de vente</a>
+            </div>
+        
+            <div class="conteneurlien">
+                <a href="">Accueil</a>
+                <a href="">Contact</a>
+                <a href="">Notre boutique</a>
+            </div>
+                
+            <div class="conteneurpicto">
+                <a href="https://www.instagram.com/" title="Instagram" target="_blank"><img src="/pictos/instagram2.png" alt=""></a>
+                <a href="https://www.facebook.com/" title="Facebook" target="_blank"><img src="/pictos/facebook2.png" alt=""></a>
+                <a href="https://twitter.com/" title="Twitter" target="_blank"><img src="/pictos/twitter2.png" alt=""></a>
+                
+                <div class="copyright">
+                    <h4>Copyright 2022 ~ Le clan</h4>
+                </div>
+
+            </div>
+            
+        </nav>
+
+    </footer>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../script.js"></script>
+    
+</body>
+</html>
