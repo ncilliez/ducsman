@@ -1,26 +1,44 @@
 
-#decouvrirprix, #decouvrirprix1, #decouvrirprix2, #decouvrirprix3, #decouvrirprix4, #decouvrirprix5, #decouvrirprix6, #decouvrirprix7 {
-    display: flex; 
-    justify-content: space-between;
-    align-content: center;
-    padding: 10px;
-    background-color: $gold;
-    color: white;
+section {
+    width: 90%;
 }
 
 #conteneurphoto {
     display: flex;
     flex-direction: column;
-    max-width: 250px;
-    min-width: auto;
-}
+    width: 22%;
+    font-size: 14px;
+        #decouvrirprix, #decouvrirprix1, #decouvrirprix2, #decouvrirprix3, #decouvrirprix4, #decouvrirprix5, #decouvrirprix6, #decouvrirprix7, #decouvrirprix8, #decouvrirprix9, #decouvrirprix10, #decouvrirprix11 {
+            display: flex; 
+            justify-content: space-between;
+            align-content: center;
+            padding: 8px;
+            background-color: $gold;
+            color: white;
+        }
+    }
 
 #grilleaccueil {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
     gap: 30px;
     margin: 30px 20px 20px 90px;
+    
+}
 
+@media screen and (max-width: 800px) {
+    #conteneurphoto {
+        width: 60%;
+        font-size: 12px;
+        #decouvrirprix, #decouvrirprix1, #decouvrirprix2, #decouvrirprix3, #decouvrirprix4, #decouvrirprix5, #decouvrirprix6, #decouvrirprix7,  #decouvrirprix8, #decouvrirprix9, #decouvrirprix10, #decouvrirprix11 {
+            padding: 8px;
+        }
+    }
+
+    #grilleaccueil {
+        margin: 22%;
+        gap: 70px;
+    }
 }
