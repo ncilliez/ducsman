@@ -401,6 +401,9 @@ header {
   margin-right: 12%;
   margin-bottom: 100px;
   font-size: 20px;
+  width: 77%;
+  border-bottom: 3px solid #A57E50;
+  padding-bottom: 120px;
 }
 .paragraphe h1, .paragraphe h2 {
   text-decoration: none;
