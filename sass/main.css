@@ -171,6 +171,108 @@ section {
   width: 160px;
 }
 
+main {
+  display: flexbox;
+  width: 70%;
+  margin-left: 100px;
+  font-family: "Maitree", serif;
+}
+
+h1 {
+  font-family: "Italianno", cursive;
+  font-size: 50px;
+  font-weight: lighter;
+  margin: 20px;
+  text-align: center;
+}
+
+.rows {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.columns {
+  width: 35%;
+  padding: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  height: 40px;
+  border: 1px #A57E50 solid;
+  border-radius: 10px;
+  outline: none;
+  font-family: "Maitree", serif;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+}
+
+::-moz-placeholder {
+  padding: 10px;
+}
+
+:-ms-input-placeholder {
+  padding: 10px;
+}
+
+::placeholder {
+  padding: 10px;
+}
+
+input:focus, textarea:focus {
+  background-color: #EFD9BE;
+}
+
+input:focus::-moz-placeholder {
+  color: white;
+}
+
+input:focus:-ms-input-placeholder {
+  color: white;
+}
+
+input:focus::placeholder {
+  color: white;
+}
+
+.send {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-family: "Maitree", serif;
+  width: 250px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 0%;
+  border-top: 1px solid #A57E50;
+  border-bottom: 1px solid #A57E50;
+}
+
+.send:hover {
+  color: white;
+  background-color: #EFD9BE;
+}
+
+.radio {
+  margin-left: 50px;
+  width: 5%;
+  height: 15px;
+}
+
+.formulaire {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px solid #A57E50;
+  border-bottom: 1px solid #A57E50;
+}
+
 #contenairpresentationboutique {
   width: 100%;
   opacity: 0.8;
@@ -229,10 +331,6 @@ section {
   padding: 7px 20px 7px 20px;
   margin-bottom: 5px;
   color: white;
-}
-
-main {
-  margin-left: 100px;
 }
 
 /*le menu en general*/
