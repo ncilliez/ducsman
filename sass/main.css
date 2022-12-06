@@ -502,10 +502,16 @@ main {
   width: 100%;
   justify-content: space-around;
 }
-.menu_reso i {
-  color: white;
+.menu_reso img {
+  width: 35px;
+  height: 35px;
 }
-.menu_reso .fa-instagram:hover {
+.menu_reso img:hover {
+  border: 3px solid black;
+  padding: 3px;
+  border-radius: 40px;
+}
+.menu_reso img:hover {
   color: black;
 }
 .menu_reso .fa-twitter:hover {
