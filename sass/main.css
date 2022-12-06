@@ -171,7 +171,7 @@ section {
   width: 160px;
 }
 
-main {
+.conteneur {
   width: 90%;
   margin-left: 100px;
   font-family: "Maitree", serif;
@@ -349,8 +349,6 @@ form input[type=radio]:hover {
   border-bottom: 2px #EFD9BE solid;
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 390px) {
   #contenairpresentationboutique {
     flex-direction: column-reverse;
@@ -384,158 +382,6 @@ form input[type=radio]:hover {
     padding: 10px;
   }
 }
-#textefondateurs, #textefondateurs1, #textefondateurs2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 70px;
-  padding-top: 40px;
-}
-#textefondateurs h2, #textefondateurs1 h2, #textefondateurs2 h2 {
-  font-family: "Amiri";
-  font-style: italic;
-  font-size: 28px;
-  margin-bottom: 20px;
-}
-#textefondateurs p, #textefondateurs1 p, #textefondateurs2 p {
-  width: 80%;
-  font-family: "Maitree";
-  font-size: 12px;
-}
-
-#presentationhistorique, #presentationhistorique1, #presentationhistorique2 {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: auto;
-}
-#presentationhistorique .imgfondateurs, #presentationhistorique1 .imgfondateurs, #presentationhistorique2 .imgfondateurs {
-  max-width: 30%;
-  padding: 10px;
-  border: 1px #A57E50 solid;
-  margin: 70px;
-}
-#presentationhistorique .imgfondateurs .textfondateurs, #presentationhistorique1 .imgfondateurs .textfondateurs, #presentationhistorique2 .imgfondateurs .textfondateurs {
-  max-width: 45%;
-}
-#presentationhistorique .imgfondateurs img, #presentationhistorique1 .imgfondateurs img, #presentationhistorique2 .imgfondateurs img {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-@media screen and (max-width: 390px) {
-  #presentationhistorique, #presentationhistorique2 {
-    flex-direction: column;
-    margin: 0px 0px 0px 20px;
-  }
-  #presentationhistorique .imgfondateurs, #presentationhistorique2 .imgfondateurs {
-    margin: auto;
-    max-width: 50%;
-  }
-  #presentationhistorique1 {
-    flex-direction: column-reverse;
-    margin: 0px 0px 0px 20px;
-  }
-  #presentationhistorique1 .imgfondateurs {
-    margin: auto;
-    max-width: 50%;
-  }
-  #textefondateurs, #textefondateurs1, #textefondateurs2 {
-    margin: 20px;
-    padding-top: 0px;
-  }
-  #textefondateurs h2, #textefondateurs1 h2, #textefondateurs2 h2 {
-    font-size: 20px;
-  }
-  #textefondateurs p, #textefondateurs1 p, #textefondateurs2 p {
-    font-size: 10px;
-  }
-}
-.contener_principal {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 100px;
-  margin-top: 50px;
-}
-
-.description {
-  width: 40%;
-  margin-top: 50px;
-}
-.description h1 {
-  font-family: "Italianno", cursive;
-  text-align: center;
-  font-size: 50px;
-  font-weight: normal;
-}
-.description h2 {
-  margin: 10px 0px;
-  font-weight: normal;
-  font-family: "Amiri", serif;
-  font-style: italic;
-}
-.description p {
-  font-family: "Maitree", serif;
-  font-weight: bold;
-}
-.description #prix {
-  margin-top: 50px;
-  color: #A57E50;
-  margin-bottom: 50px;
-}
-.description .conteneurliendetails {
-  width: 350px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-left: 120px;
-  margin-right: auto;
-  gap: 30px;
-}
-.description .conteneurliendetails a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  font-family: "Maitree", serif;
-  border-bottom: 1px solid #A57E50;
-  border-top: 1px solid #A57E50;
-  width: 210px;
-  padding: 5px 0px;
-}
-
-.grille {
-  display: flex;
-  flex-direction: column;
-}
-.grille img {
-  width: 320px;
-}
-.grille .sous_grille {
-  display: flex;
-  gap: 10px;
-}
-.grille .sous_grille img {
-  width: 100px;
-}
-
-@media screen and (max-width: 395px) {
-  .description {
-    width: 80%;
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  .grille {
-    margin-left: 25px;
-  }
-}
-main {
-  margin-left: 100px;
-}
-
->>>>>>> 49a6f1d55a7cb986c52d5f77169680fafd96be15
 /*le menu en general*/
 .navigation {
   position: fixed;
@@ -610,7 +456,6 @@ main {
   border: none;
 }
 
-/*la carte*/
 .menu_reso {
   display: flex;
   width: 100%;
