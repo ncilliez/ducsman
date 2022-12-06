@@ -2,9 +2,12 @@
 /*le menu en general*/
 
 .navigation{
+    border-right: 2px solid black;
     position: fixed;
-    width: 300px;
+    width: 400px;
     height: 100%;
+    padding-right: 60px;
+    padding-left: 60px;
     transition: transform .6s ease-in-out;
     transform: translateX(-80%);
     background: #8A9187;
@@ -47,7 +50,7 @@
 
 .burger{
 	position: fixed;
-	left: 15px;
+	left: 24px;
 	top: 10px;
 	z-index: 20;
 	cursor: pointer;
@@ -89,7 +92,7 @@
             width: 35px;
             height: 35px;
             &:hover{
-                border: 3px solid black;
+                border: 3px solid rgb(255, 255, 255);
                 padding: 3px;
                 border-radius: 40px;
             }
@@ -120,6 +123,9 @@
     }
     .navigation{
     transform: translateX(-100%);
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 300px;
 }
 .burger{
     .barre{
