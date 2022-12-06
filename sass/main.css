@@ -635,6 +635,36 @@ header {
     display: block;
   }
 }
+.boutonpanier {
+  background-color: #8A9187;
+  border-radius: 100%;
+  padding: 11px 12px 9px 12px;
+  margin: 10px;
+  border: 2px #8A9187 solid;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.boutonpanier img {
+  width: 20px;
+}
+.boutonpanier .paniervert {
+  display: none;
+}
+
+.boutonpanier:hover {
+  background-color: white;
+  border: 2px #8A9187 solid;
+  padding: 11px 12px 9px 12px;
+  border-radius: 100%;
+}
+.boutonpanier:hover .panierblanc {
+  display: none;
+}
+.boutonpanier:hover .paniervert {
+  display: inline-block;
+}
+
 .conteneurtitre {
   margin-bottom: 60px;
   border-bottom: 3px solid #A57E50;

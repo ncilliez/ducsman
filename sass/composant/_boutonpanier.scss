@@ -1,0 +1,29 @@
+.boutonpanier {
+    background-color: $pastelgreen;
+    border-radius: 100%;
+    padding: 11px 12px 9px 12px;
+    margin: 10px;
+    border: 2px $pastelgreen solid;
+    position: fixed;
+    top:0;
+    right: 0;
+        img {
+            width: 20px;
+        }
+        .paniervert {
+            display: none;
+        }
+}
+
+.boutonpanier:hover {
+        background-color: white;
+        border: 2px $pastelgreen solid;
+        padding: 11px 12px 9px 12px;
+        border-radius: 100%;
+            .panierblanc {
+                display: none;
+            }
+            .paniervert {
+                display:inline-block;
+            }
+}
