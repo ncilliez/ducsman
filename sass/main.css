@@ -418,13 +418,12 @@ section {
     margin-left: 25px;
   }
 }
-.conteneur {
+.contact {
   width: 90%;
   margin-left: 100px;
   font-family: "Maitree", serif;
 }
-
-h1 {
+.contact h1 {
   font-family: "Italianno", cursive;
   font-size: 50px;
   font-weight: lighter;
