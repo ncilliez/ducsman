@@ -171,13 +171,14 @@ section {
   width: 160px;
 }
 
-.conteneur {
-  width: 90%;
-  margin-left: 100px;
+.contact {
+  max-width: 60%;
+  min-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
   font-family: "Maitree", serif;
 }
-
-h1 {
+.contact h1 {
   font-family: "Italianno", cursive;
   font-size: 50px;
   font-weight: lighter;
@@ -194,12 +195,14 @@ form .formContainer {
 }
 form .rows {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
   padding: 20px;
 }
 form .columns {
-  width: 40%;
+  min-width: 40%;
+  max-width: 90%;
 }
 form .textarea {
   width: 90%;
@@ -211,8 +214,12 @@ form .subFormContainer {
 }
 form .newsletter {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+}
+form .newsletter label {
+  padding-bottom: 10px;
 }
 form .radio {
   margin-left: 50px;
@@ -276,12 +283,18 @@ form input[type=radio] {
   height: 20px;
   border-radius: 50%;
   margin-right: 10px;
+  margin-top: 2px;
   outline: none;
 }
 form input[type=radio]:hover {
   box-shadow: 0 0 5px 0px #A57E50;
 }
 
+@media screen and (max-width: 390px) {
+  .rows {
+    flex-wrap: wrap;
+  }
+}
 #contenairpresentationboutique {
   width: 100%;
   opacity: 0.9;
