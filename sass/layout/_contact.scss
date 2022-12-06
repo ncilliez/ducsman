@@ -1,6 +1,8 @@
 .contact{
-    width: 90%;
-    margin-left: 100px;
+    max-width: 60%;
+    min-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
     font-family: 'Maitree', serif;
     h1{
         font-family: 'Italianno', cursive;
@@ -23,13 +25,15 @@ form{
     }
         .rows{
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-around;
             width: 100%;
             padding: 20px;
         }
         
         .columns{
-            width: 40%;
+            min-width: 40%;
+            max-width: 90%;
         }
         .textarea{
             width: 90%;
@@ -42,8 +46,12 @@ form{
     }
     .newsletter {
         display: flex;
+        flex-wrap: wrap;
         width: 100%;
         justify-content: center;
+        label{
+            padding-bottom: 10px;
+        }
     }
     .radio{
         margin-left: 50px;
@@ -111,4 +119,10 @@ form{
     box-shadow:0 0 5px 0px $gold;
   }
     
+}
+
+@media screen and (max-width: 390px){
+.rows{
+    flex-wrap: wrap;
+}
 }
