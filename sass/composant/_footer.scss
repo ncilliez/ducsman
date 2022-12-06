@@ -11,6 +11,8 @@ footer{
    
     
      img{
+        margin-top: auto;
+        margin-bottom: auto;
         object-fit: cover;
         width: 100%;
        max-width: 400px;
@@ -18,7 +20,7 @@ footer{
     }
 }
 
-nav{
+footer nav{
 width: 100%;
     display: flex;
     flex-wrap: wrap;

@@ -528,6 +528,8 @@ footer {
   padding-left: 100px;
 }
 footer img {
+  margin-top: auto;
+  margin-bottom: auto;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -535,7 +537,7 @@ footer img {
   max-height: 250px;
 }
 
-nav {
+footer nav {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
