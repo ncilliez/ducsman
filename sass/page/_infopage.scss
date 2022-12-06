@@ -10,7 +10,7 @@
         font-family: 'Italianno', cursive;
         h1{
             font-size: 75px;
-            font-weight: normal;
+            font-weight: 200;
             line-height: 35px;
         }
     
@@ -39,20 +39,23 @@ font-family: 'Maitree', serif;
     margin-bottom: 195px;
 }
 
-#arrowup{
-    position: absolute;
+#arrowup, #arrowup2, #arrowup1, #arrowup3, #arrowup4, #arrowup5 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
     right: 2%;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     background-color: $pastelgreen;
     border-radius: 50%;
-    padding: 15px;
-    padding-top: 11px;
-    width: 61px;
-    height: 61px;
+    padding-top: 9px;
+    width: 45px;
+    height: 45px;
+    margin-bottom:20px;
+    text-align: center;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 391px) {
     .conteneurtitre{
        padding-bottom: 20px;
             h1{
@@ -63,11 +66,18 @@ font-family: 'Maitree', serif;
             .paragraphe{
                 font-size: 16px;
             }
-            #arrowup{
-                font-size: 30px;
+            #arrowup, #arrowup2, #arrowup1{
+                font-size: 20px;
                 text-align: center;
-                padding-top: 15px;
-                
+                padding: 10px;
+                margin: 10px;
+                width: 40px;
+                height: 40px;
+                a:hover {
+                background-color: white;
+                color: $pastelgreen;
+                border: 2px $pastelgreen solid;
             }
+        }
 }
     

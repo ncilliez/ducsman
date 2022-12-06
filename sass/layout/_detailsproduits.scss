@@ -69,17 +69,28 @@
 }
 
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 390px) {
   .description{
-    width: 80%;
-    margin-top: 50px;
+    width: 86%;
     text-align: center;
-    margin-bottom: 50px;
+    padding-bottom: 30px;
+      .conteneurliendetails{
+        margin-left: 19%;
+        width: 80%;
+      }
+      #prix{
+        margin: 20px;
+      }
   }
   .grille{
-    margin-left: 25px;
+    height: 650px;
+    margin: auto;
   }
-  
+  .contener_principal{
+    gap: 0px;
+    margin: auto;
+    padding-top: 50px;
+}
 }
 
 

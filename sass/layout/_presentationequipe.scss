@@ -41,6 +41,11 @@
         }
 }
 
+#presentationhistorique {
+    padding-top: 50%;
+
+}
+
 @media screen and (max-width: 390px) {
     #presentationhistorique, #presentationhistorique2 {
         flex-direction: column;
@@ -71,5 +76,9 @@
             p {
                 font-size: 10px;
             }
+        }
+        #presentationhistorique {
+            padding-top: 850px;
+        
         }
 }
