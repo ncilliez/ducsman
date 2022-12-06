@@ -398,17 +398,17 @@ section {
 }
 /*le menu en general*/
 .navigation {
-  border-right: 2px solid black;
+  border-right: 2px solid white;
   position: fixed;
   width: 400px;
   height: 100%;
-  padding-right: 60px;
+  padding-right: 100px;
   padding-left: 60px;
   transition: transform 0.6s ease-in-out;
   transform: translateX(-80%);
   background: #8A9187;
   font-family: "italianno";
-  font-size: 40px;
+  font-size: 30px;
 }
 .navigation.open {
   transform: translateX(0%);
@@ -416,18 +416,18 @@ section {
 .navigation .logo_menu {
   max-width: 300px;
   margin: auto;
-  padding: 50px;
+  padding: 40px 50px 10px 50px;
 }
 .navigation .mon_menu {
   list-style: none;
   display: block;
 }
 .navigation li {
-  width: 300px;
+  width: 275px;
 }
 .navigation li a {
   display: block;
-  padding: 20px 20px 20px 10px;
+  padding: 6px;
   text-decoration: none;
   color: white;
   text-align: center;
@@ -469,14 +469,16 @@ section {
 /*la carte*/
 .carte iframe {
   width: 100%;
-  padding: 20px;
-  border: none;
+  margin: 20px;
+  border: 3px #EFD9BE solid;
 }
 
 .menu_reso {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  padding-left: 45px;
+  gap: 40px;
 }
 .menu_reso img {
   width: 35px;
@@ -515,6 +517,9 @@ section {
   }
   .burger .barre2.add {
     background: none;
+  }
+  .menu_reso {
+    padding: 30px 10px 0px 0px;
   }
 }
 footer {
