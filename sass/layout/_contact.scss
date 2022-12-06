@@ -1,6 +1,5 @@
 main{
-    display: flexbox;
-    width: 70%;
+    width: 90%;
     margin-left: 100px;
     font-family: 'Maitree', serif;
 }
@@ -13,75 +12,104 @@ h1{
     text-align: center;
 }
 
-.rows{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
 
-.columns{
-    width: 35%;
-    padding: 10px;
-}
+form{
+    .formContainer{
+        padding: 20px;
+        margin-bottom: 20px;
+        border: none ;
+        border-top: 1px solid $gold;
+        border-bottom: 1px solid $gold;
+    
+    }
+        .rows{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        .columns{
+            width: 40%;
+        }
+        .textarea{
+            width: 90%;
+        }
 
-
-input, textarea{
-    width: 100%;
-    height: 40px;
-    border: 1px $gold solid;
-    border-radius: 10px;
-    outline: none;
-    font-family: 'Maitree', serif;
-}
-
-textarea{
-    resize: none;
-    width: 100%;
-    height: 150px;
-}
-
-::placeholder{
-    padding: 10px;
-}
-
-input:focus, textarea:focus{
-    background-color: $copyright;
-}
-
-input:focus::placeholder {
-    color: white;
+    .subFormContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .newsletter {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .radio{
+        margin-left: 50px;
+        width: 5%;
+        height: 15px;
+    }
+    
+    input, textarea{
+        width: 100%;
+        height: 40px;
+        border: 1px $gold solid;
+        border-radius: 10px;
+        outline: none;
+        font-family: 'Maitree', serif;
+    }
+    
+    textarea{
+        resize: none;
+        width: 100%;
+        height: 150px;
+    }
+    
+    ::placeholder{
+        padding: 10px;
+    }
+    
+    input:focus, textarea:focus{
+        background-color: $copyright;
+    }
+    
+    input:focus::placeholder {
+        color: white;
+      }
+    
+    .send{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        font-size: 20px;
+        font-family: 'Maitree', serif;
+        width: 250px;
+        height: 40px;
+        background-color: white;
+        border: none ;
+        border-radius: 0%;
+        border-top: 1px solid $gold;
+        border-bottom: 1px solid $gold;
+    }
+    
+    .send:hover{
+        color: white;
+        background-color: $copyright;
+    }
+    
+    input[type='radio'] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    margin-right: 10px;
+    outline:none;
   }
-
-.send{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    font-size: 20px;
-    font-family: 'Maitree', serif;
-    width: 250px;
-    height: 40px;
-    background-color: white;
-    border: none ;
-    border-radius: 0%;
-    border-top: 1px solid $gold;
-    border-bottom: 1px solid $gold;
+  
+  input[type='radio']:hover {
+    box-shadow:0 0 5px 0px $gold;
+  }
+    
 }
 
-.send:hover{
-    color: white;
-    background-color: $copyright;
-}
-
-.radio{
-    margin-left: 50px;
-    width: 5%;
-    height: 15px;
-}
-
-.formulaire{
-    padding: 20px;
-    margin-bottom: 20px;
-    border: none ;
-    border-top: 1px solid $gold;
-    border-bottom: 1px solid $gold;
-
-}

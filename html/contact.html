@@ -42,13 +42,13 @@
 
         <form>
 
-            <div class="formulaire">
+            <div class="formContainer">
 
                 <div class="rows">
+
                     <div class="columns">
 
                         <label for="lastName">Nom* :</label>
-                        <br>
                         <input id="lastName" name="lastName" type="text" placeholder="Nom" required>
                         
 
@@ -57,51 +57,58 @@
                     <div class="columns">
 
                         <label for="firstName">Prénom* :</label>
-                        <br>
                         <input id="firstName" name="firstName" type="text" placeholder="Prénom" required>
 
                     </div>
+
                 </div>
 
 
-        <div class="rows">
+                <div class="rows">
 
-                <div class="columns">
+                    <div class="columns">
 
-                    <label for="email">Adresse e-mail* :</label>
-                    <br>
-                    <input id="email" name="email" type="email" placeholder="prénom.nom@gmail.com" required>
+                        <label for="email">Adresse e-mail* :</label>
+                        <input id="email" name="email" type="email" placeholder="prénom.nom@gmail.com" required>
+
+                    </div>
+                
+                    <div class="columns">
+
+                        <label for="phoneNumber">Numéro de téléphone* :</label>
+                        <input id="phoneNumber" name="phoneNumber" type="tel" pattern="0[1-9][0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" maxlength="10" required placeholder="06123456">
+
+                    </div>
 
                 </div>
                 
-                <div class="columns">
+                <div class="rows">
 
-                    <label for="phoneNumber">Numéro de téléphone* :</label>
-                    <br>
-                    <input id="phoneNumber" name="phoneNumber" type="tel" pattern="0[1-9][0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" maxlength="10" required placeholder="06123456">
+                    <div class="textarea">
 
-                </div>
+                        <label for="message">Objet de la demande :</label>
+                        <textarea name="message" id="message" rows="3" required placeholder="Mon message"></textarea>
 
-                </div>
-                
-                <div>
-
-                    <label for="message">Objet de la demande :</label>
-                    <textarea name="message" id="message" rows="3" required placeholder="Mon message"></textarea>
+                    </div>
 
                 </div>
 
             </div>
 
-                <div>
-                    <p>Inscription à la newsletter* :
+            <div class="subFormContainer">
+            
+
+                <div class="newsletter">
+
+                    <label for="yesNewsletter">Inscription à la newsletter* :</label>
+                    
 
                     <input type="radio" name="newsletter" id="yesNewsletter"required class="radio">
                     <label for="yesNewsletter">Oui</label>
 
                     <input type="radio" name="newsletter" id="noNewsletter" required class="radio">
                     <label for="noNewsletter">Non</label>
-                    </p>
+                    
                     
                 </div>
 
@@ -110,6 +117,8 @@
                     <input type="submit" class="send">
 
                 </div>
+
+            </div>
 
         </form>
 
