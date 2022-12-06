@@ -9,16 +9,14 @@
     transform: translateX(-80%);
     background: #8A9187;
     font-family: "italianno";
-    font-size: 30px;
+    font-size: 40px;
     &.open{
         transform: translateX(0%);
     }
     .logo_menu{
-        max-width: 200px; 
-        display: block;
+        max-width: 300px; 
         margin: auto;
-        margin-top: 50px;
-        margin-bottom: 20px;
+        padding: 50px;
     }
     .mon_menu{
         list-style: none;
@@ -28,7 +26,7 @@
         width: 300px;
         a{
             display: block;
-            padding: 20px 20px 20px 0px;
+            padding: 20px 20px 20px 10px;
             text-decoration: none;
             color: white;
             text-align: center;
@@ -56,12 +54,10 @@
     .barre{
         width: 30px;
         height: 3px;
+        border-radius: 20px;
         background: white;
         margin-top: 6px;
         transition: all 0.6s;
-        // &.white{
-        //     background: #fff;
-        // }
     }
     .barre2.add{
         background: transparent;
@@ -77,15 +73,61 @@
 
 /*le btn burger*/
 
+/*la carte*/
+.carte{
+    iframe{
+        width: 100%;
+        padding: 20px;
+        border: none;
+    }   
+}
 
+/*la carte*/
+.menu_reso{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    i{
+        color: white;
+    }
+    
+        .fa-instagram{
+            &:hover{
+                color: black;
+            }
+        }
+        .fa-twitter{
+            &:hover{
+                color: #1c87c9;
+            }
+        }
+        .fa-facebook{
+            &:hover{
+                color: #3b5998;
+            }
 
-
-
+        }
+    
+    
+}
 
 @media screen and (max-width: 390px){ 
 
-    .navigation{
-        transform: translateX(-100%);
+    .carte{
+        display: none;
     }
-
+    .navigation{
+    transform: translateX(-100%);
+}
+.burger{
+    .barre{
+        background-color: $copyright;
+        &.white{
+            background-color: white;
+            }
+    }
+    .barre2.add{
+        background: none;
+    }
+}  
 }
