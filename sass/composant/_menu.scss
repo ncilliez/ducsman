@@ -116,5 +116,18 @@
     .carte{
         display: none;
     }
-
+    .navigation{
+    transform: translateX(-100%);
+}
+.burger{
+    .barre{
+        background-color: $copyright;
+        &.white{
+            background-color: white;
+            }
+    }
+    .barre2.add{
+        background: none;
+    }
+}  
 }

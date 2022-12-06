@@ -519,6 +519,18 @@ main {
   .carte {
     display: none;
   }
+  .navigation {
+    transform: translateX(-100%);
+  }
+  .burger .barre {
+    background-color: #EFD9BE;
+  }
+  .burger .barre.white {
+    background-color: white;
+  }
+  .burger .barre2.add {
+    background: none;
+  }
 }
 footer {
   background-color: hsla(32deg, 35%, 48%, 0.128);
@@ -667,6 +679,7 @@ header {
 .conteneurtitre h1 {
   font-size: 75px;
   font-weight: normal;
+  line-height: 35px;
 }
 
 .paragraphe {
@@ -713,5 +726,10 @@ header {
   }
   .paragraphe {
     font-size: 16px;
+  }
+  #arrowup {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
   }
 }/*# sourceMappingURL=main.css.map */
