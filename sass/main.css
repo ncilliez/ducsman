@@ -246,20 +246,12 @@ html {
   border-radius: 10px;
   outline: none;
   font-family: "Maitree", serif;
+  padding-left: 10px;
 }
 .contact form textarea {
   resize: none;
   width: 100%;
   height: 150px;
-}
-.contact form ::-moz-placeholder {
-  padding: 10px;
-}
-.contact form :-ms-input-placeholder {
-  padding: 10px;
-}
-.contact form ::placeholder {
-  padding: 10px;
 }
 .contact form input:focus, .contact form textarea:focus {
   background-color: #EFD9BE;
