@@ -72,8 +72,8 @@
             text-decoration: none;
         }
         a:hover {
-            border-top: 2px $copyright solid;
-            border-bottom: 2px $copyright solid;
+            background-color: $copyright;
+            color: black;
         }
 }
 
