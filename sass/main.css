@@ -969,19 +969,6 @@ header {
   .paragraphe {
     font-size: 16px;
   }
-  #arrowup, #arrowup2, #arrowup1 {
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    width: 40px;
-    height: 40px;
-  }
-  #arrowup a:hover, #arrowup2 a:hover, #arrowup1 a:hover {
-    background-color: white;
-    color: #8A9187;
-    border: 2px #8A9187 solid;
-  }
 }
 #panier {
   width: 80%;
