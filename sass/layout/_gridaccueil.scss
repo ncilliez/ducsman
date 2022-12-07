@@ -37,6 +37,9 @@
             font-family: 'Maitree', serif;
             opacity: 0;
             transition: opacity 0.3s;
+            a{
+                text-decoration: none;
+            }
             .nom_de_costume{
                 display: flex;
                 justify-content: center;

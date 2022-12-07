@@ -131,6 +131,9 @@ html {
   opacity: 0;
   transition: opacity 0.3s;
 }
+.conteneurphoto .hover_costume a {
+  text-decoration: none;
+}
 .conteneurphoto .hover_costume .nom_de_costume {
   display: flex;
   justify-content: center;
