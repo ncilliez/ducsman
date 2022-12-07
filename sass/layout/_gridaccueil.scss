@@ -8,6 +8,9 @@
     flex-direction: column;
     width: 22%;
     font-size: 14px;
+
+    position: relative;
+
         #decouvrirprix, #decouvrirprix1, #decouvrirprix2, #decouvrirprix3, #decouvrirprix4, #decouvrirprix5, #decouvrirprix6, #decouvrirprix7, #decouvrirprix8, #decouvrirprix9, #decouvrirprix10, #decouvrirprix11 {
             display: flex; 
             justify-content: space-between;
@@ -15,7 +18,36 @@
             padding: 8px;
             background-color: $gold;
             color: white;
+
         }
+
+.hover_costume{
+            font-size:20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            visibility: none;
+            position: absolute;
+            top: 0; left: 0;
+            text-align: center;
+            padding-top: 50%;
+            background-color: rgba(0, 0, 0, 0.7);
+            font-family: 'Maitree', serif;
+            opacity: 0;
+            transition: opacity 0.3s;
+            .nom_de_costume{
+                display: flex;
+                justify-content: center;
+                margin-top: 20%;
+            }
+        }
+    }
+
+    .conteneurphoto:hover .hover_costume{
+        visibility: visible;
+        opacity: 1;
     }
 
 #grilleaccueil {
