@@ -39,22 +39,6 @@ font-family: 'Maitree', serif;
     margin-bottom: 195px;
 }
 
-#arrowup, #arrowup2, #arrowup1, #arrowup3, #arrowup4, #arrowup5 {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    right: 2%;
-    color: white;
-    font-size: 30px;
-    background-color: $pastelgreen;
-    border-radius: 50%;
-    padding-top: 9px;
-    width: 45px;
-    height: 45px;
-    margin-bottom:20px;
-    text-align: center;
-}
-
 @media screen and (max-width: 391px) {
     .conteneurtitre{
        padding-bottom: 20px;

@@ -256,14 +256,17 @@ html {
 .contact form input:focus, .contact form textarea:focus {
   background-color: #EFD9BE;
 }
-.contact form input:focus::-moz-placeholder {
+.contact form input:focus::-moz-placeholder, .contact form textarea:focus::-moz-placeholder {
   color: white;
 }
-.contact form input:focus:-ms-input-placeholder {
+.contact form input:focus:-ms-input-placeholder, .contact form textarea:focus:-ms-input-placeholder {
   color: white;
 }
-.contact form input:focus::placeholder {
+.contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
   color: white;
+}
+.contact form input:focus, .contact form textarea:focus {
+  color: #A57E50;
 }
 .contact form .send {
   margin-top: 50px;
@@ -850,6 +853,31 @@ header {
   display: inline-block;
 }
 
+#arrowup {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  right: 2%;
+  color: white;
+  font-size: 30px;
+  background-color: #8A9187;
+  border-radius: 50%;
+  padding-top: 9px;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#arrowup:hover {
+  background-color: white;
+  border: 2px #8A9187 solid;
+}
+
+.fa-arrow-up:hover::before {
+  color: #8A9187;
+}
+
 .conteneurtitre {
   margin-bottom: 60px;
   border-bottom: 3px solid #A57E50;
@@ -886,22 +914,6 @@ header {
 
 #justepourcettepage {
   margin-bottom: 195px;
-}
-
-#arrowup, #arrowup2, #arrowup1, #arrowup3, #arrowup4, #arrowup5 {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  right: 2%;
-  color: white;
-  font-size: 30px;
-  background-color: #8A9187;
-  border-radius: 50%;
-  padding-top: 9px;
-  width: 45px;
-  height: 45px;
-  margin-bottom: 20px;
-  text-align: center;
 }
 
 @media screen and (max-width: 391px) {
