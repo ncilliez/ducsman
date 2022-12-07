@@ -103,6 +103,7 @@ html {
   flex-direction: column;
   width: 22%;
   font-size: 14px;
+  position: relative;
 }
 .conteneurphoto #decouvrirprix, .conteneurphoto #decouvrirprix1, .conteneurphoto #decouvrirprix2, .conteneurphoto #decouvrirprix3, .conteneurphoto #decouvrirprix4, .conteneurphoto #decouvrirprix5, .conteneurphoto #decouvrirprix6, .conteneurphoto #decouvrirprix7, .conteneurphoto #decouvrirprix8, .conteneurphoto #decouvrirprix9, .conteneurphoto #decouvrirprix10, .conteneurphoto #decouvrirprix11 {
   display: flex;
@@ -111,6 +112,37 @@ html {
   padding: 8px;
   background-color: #A57E50;
   color: white;
+}
+.conteneurphoto .hover_costume {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  visibility: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: "Maitree", serif;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.conteneurphoto .hover_costume a {
+  text-decoration: none;
+}
+.conteneurphoto .hover_costume .nom_de_costume {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.conteneurphoto:hover .hover_costume {
+  visibility: visible;
+  opacity: 1;
 }
 
 #grilleaccueil {
@@ -256,14 +288,17 @@ html {
 .contact form input:focus, .contact form textarea:focus {
   background-color: #EFD9BE;
 }
-.contact form input:focus::-moz-placeholder {
+.contact form input:focus::-moz-placeholder, .contact form textarea:focus::-moz-placeholder {
   color: white;
 }
-.contact form input:focus:-ms-input-placeholder {
+.contact form input:focus:-ms-input-placeholder, .contact form textarea:focus:-ms-input-placeholder {
   color: white;
 }
-.contact form input:focus::placeholder {
+.contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
   color: white;
+}
+.contact form input:focus, .contact form textarea:focus {
+  color: #A57E50;
 }
 .contact form .send {
   margin-top: 50px;
@@ -858,6 +893,32 @@ header {
   display: inline-block;
 }
 
+#arrowup {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  right: 2%;
+  color: white;
+  font-size: 30px;
+  background-color: #8A9187;
+  border-radius: 50%;
+  padding-top: 9px;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#arrowup:hover {
+  background-color: white;
+  border: 2px #8A9187 solid;
+  padding-top: 7px;
+}
+
+.fa-arrow-up:hover::before {
+  color: #8A9187;
+}
+
 .conteneurtitre {
   margin-bottom: 60px;
   border-bottom: 3px solid #A57E50;
@@ -894,22 +955,6 @@ header {
 
 #justepourcettepage {
   margin-bottom: 195px;
-}
-
-#arrowup, #arrowup2, #arrowup1, #arrowup3, #arrowup4, #arrowup5 {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  right: 2%;
-  color: white;
-  font-size: 30px;
-  background-color: #8A9187;
-  border-radius: 50%;
-  padding-top: 9px;
-  width: 45px;
-  height: 45px;
-  margin-bottom: 20px;
-  text-align: center;
 }
 
 @media screen and (max-width: 391px) {
