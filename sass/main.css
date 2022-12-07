@@ -343,11 +343,10 @@ html {
   background-image: url("/images/kingsman.jpg");
   background-size: 100%;
   background-clip: content-box;
-  position: absolute;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin-top: 30%;
+  margin-top: 5%;
 }
 
 #photoshorizontales {
@@ -572,10 +571,6 @@ html {
 #presentationhistorique .imgfondateurs img, #presentationhistorique1 .imgfondateurs img, #presentationhistorique2 .imgfondateurs img {
   -o-object-fit: contain;
      object-fit: contain;
-}
-
-#presentationhistorique {
-  padding-top: 650px;
 }
 
 @media screen and (max-width: 390px) {
