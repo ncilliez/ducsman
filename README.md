@@ -4,11 +4,11 @@
 
 Lors de la formation Dévéloppeur intégrateur d'applications web réalisée chez Simplon fin 2022 à Lille, nous avons dû produire le site web de Ducsman, tailleur qui propose des costumes sur mesures.
 
-### La team qui a développé sur le projet:
+## La team qui a développé sur le projet:
 
 <a href="https://github.com/Alexisdelecroix" alt="lien vers le github de Alexis">@AlexisDelecroix</a>, <a href="https://github.com/CyrilleDeletre" alt="lien vers le github de Cyrille">@CyrilleDeletre</a>, <a href="https://github.com/ncilliez" alt="lien vers le github de Nicolas">@Ncilliez</a>, <a href="https://github.com/laurahotz" alt="lien vers le github de Laura"> @Laurahotz</a> & <a href="https://github.com/cindoushka" alt="lien vers le github de Cindy">@Cindoushka</a>
 
-### Nos objectifs: 
+## Nos objectifs: 
 
 <ul>
 <li>Revoir la charte graphique au niveau des coloris tout en conservant les logos et polices choisies</li>
@@ -18,7 +18,7 @@ Lors de la formation Dévéloppeur intégrateur d'applications web réalisée ch
 <li>Préparer la soutenance de ce projet</li>
 </ul>
 
-### Resources utlisées: 
+## Resources utlisées: 
 
 <ul>
 <li>Flaticons pour les icones</li>
@@ -30,10 +30,10 @@ Lors de la formation Dévéloppeur intégrateur d'applications web réalisée ch
 <li>Keynote pour la soutenance</li>
 </ul>
 
-### Les étapes que nous avons suivies:
+## Les étapes que nous avons suivies:
 
 <ul>
-<li>Nous avons tout d'abord établis notre charte graphique, reprennant les impératifs client et retravaillant les couleurs.</li>
+<li>Nous avons tout d'abord établi notre charte graphique, reprennant les impératifs client et retravaillant les couleurs.</li>
 <li>Nous avons ensuite établis notre maquette sur Figma, en collaboratif.</li>
 <li>Une fois la maquette terminée, nous avons préparé notre repository sur Github.</li>
 <li>S'ensuivit la création du projet sur VSCode avec les pages html, le dossier sass et les fichiers allant avec.</li>
@@ -45,6 +45,6 @@ Lors de la formation Dévéloppeur intégrateur d'applications web réalisée ch
 </ul>
 
 
-### Pour ce projet, nous avons utilisé les langages suivants: 
+## Pour ce projet, nous avons utilisé les langages suivants: 
 
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> </p>
