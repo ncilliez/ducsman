@@ -76,9 +76,13 @@
             background-color: $copyright;
         }
         
-        input:focus::placeholder {
+        input:focus::placeholder, textarea:focus::placeholder {
             color: white;
           }
+
+        input:focus, textarea:focus{
+            color: $gold;
+        }
         
         .send{
             margin-top: 50px;
