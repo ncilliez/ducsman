@@ -1,0 +1,25 @@
+#arrowup{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    right: 2%;
+    color: white;
+    font-size: 30px;
+    background-color: $pastelgreen;
+    border-radius: 50%;
+    padding-top: 9px;
+    width: 45px;
+    height: 45px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+#arrowup:hover{
+    background-color: white;
+    border:2px $pastelgreen solid;
+    padding-top: 7px;}
+
+.fa-arrow-up:hover::before{
+    color: $pastelgreen;
+
+}
